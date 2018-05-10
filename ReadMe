@@ -1,0 +1,18 @@
+You should install packages below for running the program.
+
+python		3.6.2
+pandas		0.20.3
+numpy		1.13.1
+sklearn		0.19.0
+xgboost		0.71	PS: with GPU
+lightgbm	2.1.0
+
+system: Ubuntu 16.04.2
+core:	Linux version 4.4.0-112-generic
+
+Run "python main.py --method Preprocess --data_path ./DataSet" for Preprocess
+Run "python main.py --method LightGBM --data_path ./DataSet" for LightGBM
+Run "python main.py --method Stacking --data_path ./DataSet" for Stacking
+
+--method: 	 use which measure for training.
+--data_path: train.csv and test.csv should be involved.
